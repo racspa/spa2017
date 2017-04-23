@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <ctime>
 #include "game_of_life.h"
 using namespace std;
 
@@ -9,6 +10,7 @@ int main() {
 
 	bool dalje;
 	do {
+
 		the_game.iscrtaj();
 		the_game.sljedeca_generacija();
 
