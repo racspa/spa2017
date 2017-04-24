@@ -16,7 +16,7 @@ private:
 	bool slucajna_vrijednost();
 	bool celija_zauzeta(int i, int j);
 	int slucajni_broj(int min, int max);
-	int broj_susjeda(int min, int max);
+	int broj_susjeda(int i, int j);
 
 public:
 	game_of_life();
