@@ -4,6 +4,8 @@
 #include "game_of_life.h"
 using namespace std;
 
+// Simun Pesa
+
 int main() {
 	game_of_life the_game;
 
