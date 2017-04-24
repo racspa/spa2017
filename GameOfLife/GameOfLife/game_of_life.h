@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <ctime>
 using namespace std;
 
 class game_of_life {
@@ -14,6 +15,8 @@ private:
 	bool _sljedeca_generacija[REDAKA][STUPACA];
 	bool slucajna_vrijednost();
 	bool celija_zauzeta(int i, int j);
+	int slucajni_broj(int min, int max);
+	int broj_susjeda(int i, int j);
 
 public:
 	game_of_life();
