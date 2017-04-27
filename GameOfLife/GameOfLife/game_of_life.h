@@ -4,14 +4,15 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <ctime>
 using namespace std;
 
 class game_of_life {
 private:
 	static const unsigned int STUPACA = 40;
 	static const unsigned int REDAKA = 20;
-	bool _generacija[REDAKA][STUPACA];
-	bool _sljedeca_generacija[REDAKA][STUPACA];
+	bool _generacija[REDAKA+2][STUPACA+2];
+	bool _sljedeca_generacija[REDAKA+2][STUPACA+2];
 	bool slucajna_vrijednost();
 	bool celija_zauzeta(int i, int j);
 
