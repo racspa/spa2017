@@ -30,3 +30,7 @@ Za rješavanje zadatka će biti potrebno koristiti višedimenzionalna polja, tj.
 - kada ste rijesili zadatak predajte ga kreiranjem pull requesta sa svog projekt natrag u projekt racspa/spa2017
 - naziv pull requesta zadajte prema gore navedenim uputama
 - upute za kreiranje pull requesta iz kreiranog forka: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+
+### Za one koji zele znati vise
+Preporucam pogledati odlicnu prezentaciju na tematiku (izmedju ostalog) game of life:
+https://www.infoq.com/presentations/programming-limits
