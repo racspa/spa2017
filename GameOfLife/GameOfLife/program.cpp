@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-	game_of_life the_game;
+	game_of_life the_game; //poziva konstruktor koji ubacuje u polje
 
 	bool dalje;
 	do {
