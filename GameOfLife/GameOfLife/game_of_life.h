@@ -12,8 +12,10 @@ private:
 	static const unsigned int REDAKA = 20;
 	bool _generacija[REDAKA][STUPACA];
 	bool _sljedeca_generacija[REDAKA][STUPACA];
-	bool slucajna_vrijednost();
+	void slucajna_vrijednost();
 	bool celija_zauzeta(int i, int j);
+	int broj_susjeda(int i, int j);
+	int random_number(int min, int max);
 
 public:
 	game_of_life();
