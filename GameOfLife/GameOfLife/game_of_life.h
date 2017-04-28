@@ -13,6 +13,8 @@ private:
 	bool _generacija[REDAKA][STUPACA];
 	bool _sljedeca_generacija[REDAKA][STUPACA];
 	bool slucajna_vrijednost();
+	int susjedi(int i, int j);
+	int random();
 	bool celija_zauzeta(int i, int j);
 
 public:
