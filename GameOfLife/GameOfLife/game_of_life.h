@@ -14,6 +14,7 @@ private:
 	bool _sljedeca_generacija[REDAKA][STUPACA];
 	bool slucajna_vrijednost();
 	bool celija_zauzeta(int i, int j);
+	int brojSusjeda(int x, int y);
 
 public:
 	game_of_life();
