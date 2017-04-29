@@ -1,0 +1,5 @@
+﻿  program.cpp
+  game_of_life.cpp
+c:\users\ivanp\desktop\fax\1.godina\2.semestar\strukture podataka i algoritmi\domaćazadaća\gameoflife\gameoflife\game_of_life.cpp(45): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  GameOfLife.vcxproj -> C:\Users\ivanp\Desktop\Fax\1.godina\2.semestar\Strukture podataka i algoritmi\DomaćaZadaća\GameOfLife\Debug\GameOfLife.exe
