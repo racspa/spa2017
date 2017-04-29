@@ -12,8 +12,9 @@ private:
 	static const unsigned int REDAKA = 20;
 	bool _generacija[REDAKA][STUPACA];
 	bool _sljedeca_generacija[REDAKA][STUPACA];
-	bool slucajna_vrijednost();
+	bool slucajna_vrijednost(int probability);   // added probability parameter
 	bool celija_zauzeta(int i, int j);
+    int checkNeighbours(int i, int j);                           // new method
 
 public:
 	game_of_life();
