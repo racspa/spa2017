@@ -1,0 +1,5 @@
+﻿  game_of_life.cpp
+c:\users\ivankožul\desktop\spa2017-master\gameoflife\gameoflife\game_of_life.cpp(54): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ivankožul\desktop\spa2017-master\gameoflife\gameoflife\game_of_life.cpp(15): warning C4715: 'game_of_life::slucajna_vrijednost': not all control paths return a value
+  GameOfLife.vcxproj -> C:\Users\IvanKožul\Desktop\spa2017-master\GameOfLife\Debug\GameOfLife.exe
+  GameOfLife.vcxproj -> C:\Users\IvanKožul\Desktop\spa2017-master\GameOfLife\Debug\GameOfLife.pdb (Full PDB)
