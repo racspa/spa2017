@@ -12,9 +12,9 @@ int main() {
 		the_game.iscrtaj();
 		the_game.sljedeca_generacija();
 
-		cout << "Dalje (1/0): ";
+		cout << "Dalje (d-1/n-0): ";
 		cin >> dalje;
-	} while (dalje);
+	} while (dalje == true);
 
 	return 0;
 }
