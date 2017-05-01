@@ -7,14 +7,13 @@ using namespace std;
 int main() {
 	game_of_life the_game;
 
-	bool dalje;
+	bool dalje = true;
 	do {
 		the_game.iscrtaj();
 		the_game.sljedeca_generacija();
-
-		cout << "Dalje (1/0): ";
-		cin >> dalje;
+		//cout << "Dalje (1/0): ";
+		//cin >> dalje;
+		getchar();
 	} while (dalje);
-
 	return 0;
 }
